@@ -1,5 +1,5 @@
 module.exports = {
-    title: '「慕课网」小慕读书官网',
+    title: '慕课网「小慕读书」官网',
     description: 'mpvue多端小程序快速入门',
     markdown: {
         // markdown-it-anchor 的选项
@@ -8,50 +8,41 @@ module.exports = {
         toc: { includeLevel: [1, 2, 3] },
         lineNumbers: true
     },
+    head: [
+        ['link', { rel: 'icon', href: `/logo.gif` }],
+        ['meta', {name: 'theme-color', content: '#3eaf7c'}],
+        ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
+        ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
+        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ],
     themeConfig: {
-        sidebar: [
-            {
-                title: 'Group 1',   // 必要的
-                path: '/',      // 可选的, 应该是一个绝对路径
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 1,    // 可选的, 默认值是 1
-                children: [
-                    '/'
-                ]
-            },
-            {
-                title: 'Group 2',
-                children: [
-                    {
-                        title: 'Group 1',   // 必要的
-                        path: '/',      // 可选的, 应该是一个绝对路径
-                        collapsable: false, // 可选的, 默认值是 true,
-                        sidebarDepth: 1,    // 可选的, 默认值是 1
-                        children: [
-                            '/'
-                        ]
-                    },
-                    {
-                        title: 'Group 1',   // 必要的
-                        path: '/',      // 可选的, 应该是一个绝对路径
-                        collapsable: false, // 可选的, 默认值是 true,
-                        sidebarDepth: 1,    // 可选的, 默认值是 1
-                        children: [
-                            '/'
-                        ]
-                    },
-                ]
-            }
-        ],
+        lastUpdated: '上次更新',
         nav: [
             { text: '首页', link: '/' },
             { text: '指南', link: '/guide/' },
-            { text: 'API', link: '/api' },
-            { text: '习题', link: '/question' },
-            { text: 'QA', link: '/qa' },
-            { text: '精彩活动', link: '/activity' },
+            { text: 'API', link: '/api/' },
+            { text: '习题', link: '/exercise/' },
+            { text: 'QA', link: '/qa/' },
+            { text: '精彩活动', link: '/activities/' },
             { text: '购买课程', link: 'https://coding.imooc.com/class/285.html' },
         ],
         navbar: true,
+        sidebar: {
+            collapsable: false,
+            '/guide/': [
+                '',
+                'base',
+                'dev',
+                'dev/auth',
+                'dev/home',
+                'dev/search',
+                'dev/book-list',
+                'dev/book-detail',
+                'dev/read',
+                'dev/category-list',
+                'dev/shelf',
+                'dev/crash'
+            ],
+        }
     }
 }
