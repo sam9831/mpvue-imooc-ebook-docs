@@ -86,3 +86,6 @@ Page({
 
 ## API调用方法
 [https://developers.weixin.qq.com/miniprogram/dev/api/](https://developers.weixin.qq.com/miniprogram/dev/api/)
+
+## 原生小程序的缺点
+![defect](./images/wechat_defect.png)
