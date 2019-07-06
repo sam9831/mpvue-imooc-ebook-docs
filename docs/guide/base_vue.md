@@ -3,7 +3,7 @@
 ## 为什么要学习Vue
 先看一组数据
 - github star 14w+，位列开发项目第一
-- [patreon](https://www.patreon.com/evanyou)捐赠$1.9w+/月
+- [patreon](https://www.patreon.com/evanyou)捐赠$1.5w+/月
 - Chrome DevTools周活用户90w+
 
 给出三点理由：
@@ -341,6 +341,34 @@ Vue.component('Message', {
 4. 完成对DOM的渲染
 
 组件是可以嵌套的，也就是说组件中可以继续嵌套组件，从而实现更高层次的复用！
+
+## 脚手架的使用
+1. 安装cnpm
+官网：http://npm.taobao.org/
+```bash
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+
+2. 安装vue
+Vue-CLI官网：[https://cli.vuejs.org/zh/](https://cli.vuejs.org/zh/)
+```bash
+cnpm install -g @vue/cli
+```
+3. 项目初始化
+```bash
+vue create hello-world
+```
+
+4. 运行项目
+```bash
+cd hello-world
+npm run serve
+```
+
+5. 代码结构
+- index.html：应用的入口文件
+- main.js：主js文件，初次渲染时执行
+- App.vue：根组件，在main.js中加载
 
 ## 小结
 至此，Vue的基础部分就给大家讲解完了，如果大家还有什么不清楚的地方可以到问答区与我互动哦
