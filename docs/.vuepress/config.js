@@ -44,7 +44,8 @@ module.exports = {
           children: [
             'base',
             'base_vue',
-            'base_mpvue'
+            'base_mpvue',
+            'base_vuex'
           ]
         },
         {
