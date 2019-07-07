@@ -233,7 +233,7 @@ const store = new Vuex.Store({
 })
 ```
 
-4. 实例化Vue对象，传入router参数
+4. 实例化Vue对象，传入store参数
 ```js
 new Vue({
   render: h => h(App),
