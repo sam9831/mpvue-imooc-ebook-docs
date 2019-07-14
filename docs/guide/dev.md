@@ -52,6 +52,9 @@
 ### measure插件
 下载地址：[http://www.youbaobao.xyz/mpvue-design/measure.zip](http://www.youbaobao.xyz/mpvue-design/measure.zip)
 
+### sketch设计稿下载
+[http://www.youbaobao.xyz/mpvue-design/xiaomu-reader-design.sketch](http://www.youbaobao.xyz/mpvue-design/xiaomu-reader-design.sketch)
+
 ### 交互稿
 <a :href="require('../images/home_design.jpg')" target="_blank">![design](../images/home_design.jpg)</a>
 
