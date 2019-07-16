@@ -59,8 +59,9 @@ module.exports = {
           title: '开发指南',
           collapsable: false,
           children: [
-            'dev/auth',
+            'dev/prepare',
             'dev/home',
+            'dev/auth',
             'dev/search',
             'dev/book-list',
             'dev/book-detail',
