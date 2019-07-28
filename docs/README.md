@@ -45,4 +45,7 @@ footer: © 慕课网（imooc.com）版权所有 | 苏ICP备18055397号-1 | 2019 
 # 扫码体验
 ![qrcode](./images/mp_qrcode.jpeg)
 
+# 服务号
+![gzh_qrcode](./images/gzh_qrcode.jpg)
+
 如果您想学习本课程，请支持正版，谢谢！[购买地址](https://coding.imooc.com/class/285.html)

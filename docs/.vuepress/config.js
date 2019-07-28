@@ -22,10 +22,10 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
       { text: 'API', link: '/api/' },
-      { text: '习题', link: '/exercise/' },
-      { text: 'QA', link: '/qa/' },
-      { text: '精彩活动', link: '/activities/' },
-      { text: '购买课程', link: 'https://coding.imooc.com/class/285.html' }
+      // { text: '习题', link: '/exercise/' },
+      { text: '答疑汇总', link: '/qa/' },
+      // { text: '精彩活动', link: '/activities/' },
+      { text: '点赞支持', link: 'https://github.com/sam9831/mpvue-imooc-ebook-docs' }
     ],
     navbar: true,
     sidebar: {
