@@ -36,7 +36,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | shelfCount      | int | 书架图书数量 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/home/v2?openId=1234`
+- 请求：[https://test.youbaobao.xyz:18081/book/home/v2?openId=1234](https://test.youbaobao.xyz:18081/book/home/v2?openId=1234)
 - 响应：
 ```json
 {
@@ -127,6 +127,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | ------------- |:-------------:| -----:| ----:|
 | appId      | 是 | String | 微信小程序的appId |
 | code      | 是 | String |微信登录wx.login后获得的code |
+| secret      | 是 | String |小程序的secret key |
 
 #### 返回值
 | 参数名称                  | 类型  | 说明  |
@@ -138,7 +139,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | session_key      | String | 用户登录sessionKey，用于微信jsapi请求 |
 
 #### 示例
-- 请求：`https://www.imooc.com/openId/get?appId=1234&code=5678`
+- 请求：[https://test.youbaobao.xyz:18081/openId/get?appId=1234&code=5678&secret=9012](https://test.youbaobao.xyz:18081/openId/get?appId=1234&code=5678&secret=9012)
 - 响应：
 ```json
 {
@@ -172,7 +173,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | session_key      | String | 用户登录sessionKey，用于支付宝jsapi请求 |
 
 #### 示例
-- 请求：`https://www.imooc.com/openId/get/alipay?appId=1234&code=5678`
+- 请求：`https://test.youbaobao.xyz:18081/openId/get/alipay?appId=1234&code=5678`
 - 响应：
 ```json
 {
@@ -213,7 +214,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | msg      | String | 返回消息 |
 
 #### 示例
-- 请求：`https://www.imooc.com/user/register`
+- 请求：[https://test.youbaobao.xyz:18081/user/register](https://test.youbaobao.xyz:18081/user/register)
 - 响应：
 ```json
 {"error_code":0,"msg":"用户注册成功"}
@@ -235,7 +236,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | data      | Array | 返回数据 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/home/recommend/v2`
+- 请求：[https://test.youbaobao.xyz:18081/book/home/recommend/v2](https://test.youbaobao.xyz:18081/book/home/recommend/v2)
 - 响应：
 ```json
 {
@@ -297,7 +298,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | data      | Array | 返回数据 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/home/freeRead/v2`
+- 请求：[https://test.youbaobao.xyz:18081/book/home/freeRead/v2](https://test.youbaobao.xyz:18081/book/home/freeRead/v2)
 - 响应：
 ```json
 {
@@ -371,7 +372,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | data      | Array | 返回数据 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/home/hotBook/v2`
+- 请求：[https://test.youbaobao.xyz:18081/book/home/hotBook/v2](https://test.youbaobao.xyz:18081/book/home/hotBook/v2)
 - 响应：
 ```json
 {
@@ -434,7 +435,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 ### 获取热门搜索词
 
 #### 接口地址
-`GET /book/hot-search/v2`
+`GET /book/hot-search`
 
 #### 请求参数
 无
@@ -447,7 +448,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | data      | Array | 返回数据 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/hot-search/v2`
+- 请求：[https://test.youbaobao.xyz:18081/book/hot-search](https://test.youbaobao.xyz:18081/book/hot-search)
 - 响应：
 ```json
 {
@@ -512,7 +513,7 @@ API文档中示例部分的域名仅仅作为演示，所以并不能实际生�
 | book | Array | 匹配到的图书 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/search?keyword=C&page=1&openId=abcd&pageSize=20`
+- 请求：[https://test.youbaobao.xyz:18081/book/search?keyword=C&page=1&openId=abcd&pageSize=20](https://test.youbaobao.xyz:18081/book/search?keyword=C&page=1&openId=abcd&pageSize=20)
 - 响应：
 ```json
 {
@@ -586,7 +587,7 @@ publisher、author、category、categoryId四个参数至少需要传入一个�
 | data | Array | 返回数据 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/search-list?category=ComputerScience&page=1&pageSize=20`
+- 请求：[https://test.youbaobao.xyz:18081/book/search-list?category=ComputerScience&page=1&pageSize=20](https://test.youbaobao.xyz:18081/book/search-list?category=ComputerScience&page=1&pageSize=20)
 - 响应：
 ```json
 {
@@ -638,7 +639,7 @@ publisher、author、category、categoryId四个参数至少需要传入一个�
 | data | Array | 返回数据 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/category/list/v2`
+- 请求：[https://test.youbaobao.xyz:18081/book/category/list/v2](https://test.youbaobao.xyz:18081/book/category/list/v2)
 - 响应：
 ```json
 {
@@ -695,7 +696,7 @@ publisher、author、category、categoryId四个参数至少需要传入一个�
 | rankAvg | String | 平均评分 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/detail?fileName=2015_Book_ContemporaryBioethics&openId=abcd`
+- 请求：[https://test.youbaobao.xyz:18081/book/detail?fileName=2015_Book_ContemporaryBioethics&openId=abcd](https://test.youbaobao.xyz:18081/book/detail?fileName=2015_Book_ContemporaryBioethics&openId=abcd)
 - 响应：
 ```json
 {
@@ -749,7 +750,7 @@ publisher、author、category、categoryId四个参数至少需要传入一个�
 | data | Object | 返回数据 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/contents?fileName=2015_Book_ContemporaryBioethics`
+- 请求：[https://test.youbaobao.xyz:18081/book/contents?fileName=2015_Book_ContemporaryBioethics](https://test.youbaobao.xyz:18081/book/contents?fileName=2015_Book_ContemporaryBioethics)
 - 响应：
 ```json
 {
@@ -804,7 +805,7 @@ publisher、author、category、categoryId四个参数至少需要传入一个�
 | data | Array | 返回数据 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/shelf/get?openId=abcd&fileName=2015_Book_ContemporaryBioethics`
+- 请求：[https://test.youbaobao.xyz:18081/book/shelf/get?openId=abcd&fileName=2015_Book_ContemporaryBioethics](https://test.youbaobao.xyz:18081/book/shelf/get?openId=abcd&fileName=2015_Book_ContemporaryBioethics)
 - 响应：
 ```json
 {
@@ -847,7 +848,7 @@ publisher、author、category、categoryId四个参数至少需要传入一个�
 | msg | String | 返回消息 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/rank/save?openId=abcd&fileName=2015_Book_ContemporaryBioethics&rank=3`
+- 请求：[https://test.youbaobao.xyz:18081/book/rank/save?openId=abcd&fileName=2015_Book_ContemporaryBioethics&rank=3](https://test.youbaobao.xyz:18081/book/rank/save?openId=abcd&fileName=2015_Book_ContemporaryBioethics&rank=3)
 - 响应：
 ```json
 { "error_code": 0, "msg": "保存评分成功" }
@@ -874,7 +875,7 @@ publisher、author、category、categoryId四个参数至少需要传入一个�
 | msg | String | 返回消息 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/shelf/save?shelf=%7b%22fileName%22%3a%222016_Book_PhysiologyPsychoacousticsAndCo%22%2c%22openId%22%3a%22abcd%22%7d`
+- 请求：[https://test.youbaobao.xyz:18081/book/shelf/save?shelf=%7b%22fileName%22%3a%222016_Book_PhysiologyPsychoacousticsAndCo%22%2c%22openId%22%3a%22abcd%22%7d](https://test.youbaobao.xyz:18081/book/shelf/save?shelf=%7b%22fileName%22%3a%222016_Book_PhysiologyPsychoacousticsAndCo%22%2c%22openId%22%3a%22abcd%22%7d)
 - 响应：
 ```json
 { "error_code": 0, "msg": "加入书架成功" }
@@ -901,7 +902,7 @@ shelf的用法同加入书架API
 | msg | String | 返回消息 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/shelf/remove?shelf=%7b%22fileName%22%3a%222016_Book_PhysiologyPsychoacousticsAndCo%22%2c%22openId%22%3a%22abcd%22%7d`
+- 请求：[https://test.youbaobao.xyz:18081/book/shelf/remove?shelf=%7b%22fileName%22%3a%222016_Book_PhysiologyPsychoacousticsAndCo%22%2c%22openId%22%3a%22abcd%22%7d](https://test.youbaobao.xyz:18081/book/shelf/remove?shelf=%7b%22fileName%22%3a%222016_Book_PhysiologyPsychoacousticsAndCo%22%2c%22openId%22%3a%22abcd%22%7d)
 - 响应：
 ```json
 { "error_code": 0, "msg": "移出书架成功" }
@@ -927,7 +928,7 @@ shelf的用法同加入书架API
 | data | Array | 返回结果 |
 
 #### 示例
-- 请求：`https://www.imooc.com/book/shelf/get?openId=abcd`
+- 请求：[https://test.youbaobao.xyz:18081/book/shelf/get?openId=abcd](https://test.youbaobao.xyz:18081/book/shelf/get?openId=abcd)
 - 响应：
 ```json
 {
@@ -969,7 +970,7 @@ shelf的用法同加入书架API
 | data | Object | 返回结果 |
 
 #### 示例
-- 请求：`https://www.imooc.com/user/day?openId=abcd`
+- 请求：[https://test.youbaobao.xyz:18081/user/day?openId=abcd](https://test.youbaobao.xyz:18081/user/day?openId=abcd)
 - 响应：
 ```json
 {
