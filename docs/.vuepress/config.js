@@ -70,6 +70,16 @@ module.exports = {
             'dev/shelf',
             'dev/crash'
           ]
+        },
+        {
+          title: '部署指南',
+          collapsable: false,
+          children: [
+            'release/git',
+            'release/server',
+            'release/https',
+            'release/auto',
+          ]
         }
       ]
     }
