@@ -121,6 +121,82 @@
     </tr>
 </table>
 
+## 图片组件
+提供图片懒加载、预加载等功能
+<table>
+    <tr>
+        <th>组件名称</th>
+        <th>属性</th>
+        <th>参数</th>
+        <th>用途</th>
+        <th>默认值</th>
+    </tr>
+    <tr>
+        <td rowspan="11">ImageView</td>
+        <td rowspan="5">props</td>
+        <td>src</td>
+        <td>图片地址</td>
+        <td>(空)</td>
+    </tr>
+    <tr>
+        <td>mode</td>
+        <td>图片伸缩模式</td>
+        <td>widthFix</td>
+    </tr>
+    <tr>
+        <td>lazyLoad</td>
+        <td>是否启动懒加载</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>round</td>
+        <td>是否为圆形图片</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>height</td>
+        <td>图片高度</td>
+        <td>auto</td>
+    </tr>
+    <tr>
+        <td>watch</td>
+        <td>src</td>
+        <td>监听src变化，如果src变化，则将isLoading置为true</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td rowSpan="2">data</td>
+        <td>isLoading</td>
+        <td>图片是否处于加载状态</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>error</td>
+        <td>是否加载失败</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td rowSpan="3">methods</td>
+        <td>onClick</td>
+        <td>图片点击事件</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>onError</td>
+        <td>图片加载失败事件</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>onLoad</td>
+        <td>图片加载成功事件</td>
+        <td>-</td>
+    </tr>
+</table>
+
+::: tip
+占位符图片地址：[https://www.youbaobao.xyz/book/img/loading2.ae9e5924.jpeg](https://www.youbaobao.xyz/book/img/loading2.ae9e5924.jpeg)
+:::
+
 ## Banner组件
 展示用户信息、签到、书架图书和书架入口
 ![component_banner](../images/component_banner.png)
