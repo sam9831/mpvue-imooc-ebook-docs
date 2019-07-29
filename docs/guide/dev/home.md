@@ -194,7 +194,9 @@
 </table>
 
 ::: tip
-占位符图片地址：[https://www.youbaobao.xyz/book/img/loading2.ae9e5924.jpeg](https://www.youbaobao.xyz/book/img/loading2.ae9e5924.jpeg)
+资源下载地址
+- 占位符图片地址：[https://www.youbaobao.xyz/book/img/loading2.ae9e5924.jpeg](https://www.youbaobao.xyz/book/img/loading2.ae9e5924.jpeg)
+- 测试大图：[https://www.youbaobao.xyz/mpvue-res/big.jpg](https://www.youbaobao.xyz/mpvue-res/big.jpg)
 :::
 
 ## Banner组件
