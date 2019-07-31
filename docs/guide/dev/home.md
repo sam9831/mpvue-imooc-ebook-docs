@@ -78,6 +78,7 @@
 ## 读书卡片组件
 展示用户信息、签到、书架图书和书架入口
 ![home_card](../images/component_home_card.png)
+![home_card2](../images/component_home_card2.png)
 <table>
     <tr>
         <th>组件名称</th>
