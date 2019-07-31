@@ -91,7 +91,7 @@
         <td rowspan="11">HomeCard</td>
         <td rowspan="3">props</td>
         <td>data</td>
-        <td>界面需要展示的数据，userInfo为用户信息，bookList为推荐图书信息</td>
+        <td>界面需要展示的数据，userInfo为用户信息，bookList为推荐图书信息，num为书架图书数量</td>
         <td>null</td>
     </tr>
     <tr>
@@ -121,6 +121,11 @@
         <td>-</td>
     </tr>
 </table>
+::: tip
+测试图片地址：
+- 头像测试图片地址：[https://www.youbaobao.xyz/mpvue-res/logo.jpg](https://www.youbaobao.xyz/mpvue-res/logo.jpg)
+- 图书测试图片地址：[https://www.youbaobao.xyz/book/res/img//EarthSciences/978-981-10-3713-9_CoverFigure.jpg](https://www.youbaobao.xyz/book/res/img//EarthSciences/978-981-10-3713-9_CoverFigure.jpg)
+:::
 
 ## 图片组件
 提供图片懒加载、预加载等功能
