@@ -256,8 +256,8 @@
         <th>默认值</th>
     </tr>
     <tr>
-        <td rowspan="12">HomeBook</td>
-        <td rowspan="10">props</td>
+        <td rowspan="11">HomeBook</td>
+        <td rowspan="9">props</td>
         <td>title</td>
         <td>标题栏</td>
         <td>(空)</td>
