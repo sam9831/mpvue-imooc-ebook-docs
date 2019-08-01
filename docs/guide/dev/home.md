@@ -240,6 +240,9 @@
         <td>-</td>
     </tr>
 </table>
+::: tip
+测试背景图片地址：[http://www.youbaobao.xyz/book/res/bg.jpg](http://www.youbaobao.xyz/book/res/bg.jpg)
+:::
 
 ## 图书推荐组件
 适配多场景的图书推荐组件
