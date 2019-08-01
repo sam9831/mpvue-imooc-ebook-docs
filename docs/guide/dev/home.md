@@ -288,11 +288,6 @@
         <td>row</td>
     </tr>
     <tr>
-        <td>mode</td>
-        <td>显示模式，row - 按行显示，col - 按列显示，category - 分类显示</td>
-        <td>row</td>
-    </tr>
-    <tr>
         <td>showTitle</td>
         <td>是否显示标题</td>
         <td>true</td>
