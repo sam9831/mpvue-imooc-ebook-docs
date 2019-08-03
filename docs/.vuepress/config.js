@@ -22,6 +22,7 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
       { text: 'API', link: '/api/' },
+      { text: '补充阅读', link: '/column/' },
       // { text: '习题', link: '/exercise/' },
       { text: '答疑汇总', link: '/qa/' },
       // { text: '精彩活动', link: '/activities/' },
@@ -30,6 +31,22 @@ module.exports = {
     navbar: true,
     sidebar: {
       collapsable: false,
+      '/column/': [
+        {
+          title: '说明',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        },
+        {
+          title: 'mpvue',
+          collapsable: false,
+          children: [
+            'mpvue/init',
+          ]
+        },
+      ],
       '/guide/': [
         {
           title: '说明',
