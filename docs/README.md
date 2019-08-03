@@ -14,6 +14,23 @@ features:
 footer: © 慕课网（imooc.com）版权所有 | 苏ICP备18055397号-1 | 2019 Powered by Sam
 ---
 
+# 扫码体验
+![qrcode](./images/mp_qrcode.jpeg)
+
+::: tip
+本官网全部开源，如果您觉得课程还不错，请到[github](https://github.com/sam9831/mpvue-imooc-ebook-docs)点赞支持，您的支持是我们前进的最大动力
+:::
+
+# 服务号
+![gzh_qrcode](./images/gzh_qrcode.jpg)
+
+::: tip
+公众号福利：
+- 参与课程互动
+- 定期好文推送
+- 课程补充资源（免费）
+:::
+
 # 技术栈介绍
 ## mpvue
 课程将教会你如何使用脚手架初始化mpvue小程序项目，并完成打包构建，mpvue2.0支持多端小程序，课程将讲解如何实现原生API调用和多端适配，我们还将应用vuex实现全局状态管理和vue-router语法实现路由管理
@@ -28,7 +45,7 @@ footer: © 慕课网（imooc.com）版权所有 | 苏ICP备18055397号-1 | 2019 
 课程使用git作为代码管理，前后端分离架构，我们将服务端发布到阿里云服务器，并接入https服务，使用nginx作为静态资源服务器
 
 ::: tip
-课程实际应用的知识点将更加丰富，非常贴近商业项目的需求，详细的课程目录及试听请点击[这里](https://coding.imooc.com/class/chapter/285.html)
+课程实际应用的知识点将更加丰富，非常贴近商业项目的需求，详细的课程目录及试听请点击[这里](https://coding.imooc.com/class/376.html)
 :::
 
 # 项目功能结构
@@ -42,10 +59,4 @@ footer: © 慕课网（imooc.com）版权所有 | 苏ICP备18055397号-1 | 2019 
 - 了解npm和webpack的基本概念
 - 了解node.js的基本概念
 
-# 扫码体验
-![qrcode](./images/mp_qrcode.jpeg)
-
-# 服务号
-![gzh_qrcode](./images/gzh_qrcode.jpg)
-
-如果您想学习本课程，请支持正版，谢谢！[购买地址](https://coding.imooc.com/class/285.html)
+如果您想学习本课程，请支持正版，谢谢！[购买地址](https://coding.imooc.com/class/376.html)
