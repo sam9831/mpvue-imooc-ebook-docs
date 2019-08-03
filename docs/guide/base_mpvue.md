@@ -42,7 +42,7 @@ mpvue开发需要我们预先安装node.js环境，大家可以到node.js官网[
 ## mpvue生命周期
 
 ### Vue生命周期
-![lifecycle](http://mpvue.com/assets/lifecycle.jpg)
+![lifecycle](https://www.youbaobao.xyz/mpvue-res/mpvue-lifecycle.jpg)
 
 ### 小程序生命周期
 
@@ -50,7 +50,7 @@ mpvue开发需要我们预先安装node.js环境，大家可以到node.js官网[
 小程序应用生命周期官网介绍：[https://developers.weixin.qq.com/miniprogram/dev/reference/api/App.html#onLaunch-Object-object](https://developers.weixin.qq.com/miniprogram/dev/reference/api/App.html#onLaunch-Object-object)
 
 #### 小程序页面生命周期
-![lifecycle](https://res.wx.qq.com/wxdoc/dist/assets/img/page-lifecycle.2e646c86.png)
+![lifecycle](https://www.youbaobao.xyz/mpvue-res/wx-lifecycle.png)
 ::: tip
 详细内容见官网文档：[https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page-life-cycle.html](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page-life-cycle.html)
 :::
