@@ -38,14 +38,7 @@ module.exports = {
           children: [
             ''
           ]
-        },
-        {
-          title: 'mpvue',
-          collapsable: false,
-          children: [
-            'mpvue/init',
-          ]
-        },
+        }
       ],
       '/guide/': [
         {
