@@ -69,3 +69,7 @@
         <td>(空)</td>
     </tr>
 </table>
+
+::: tip
+LOGO图片地址：[https://www.youbaobao.xyz/mpvue-res/logo.jpg](https://www.youbaobao.xyz/mpvue-res/logo.jpg)
+:::
