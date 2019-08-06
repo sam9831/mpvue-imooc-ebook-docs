@@ -1,7 +1,7 @@
 # 用户授权
 
 ## 用户授权流程
-![auth progress](../images/auth_process.jpg)
+![auth](../images/auth.png)
 
 ### 用户授权判断
 通过`mpvue.getSetting`判断小程序是否获得权限
