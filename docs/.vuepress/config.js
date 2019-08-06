@@ -25,6 +25,7 @@ module.exports = {
       { text: '补充阅读', link: '/column/' },
       // { text: '习题', link: '/exercise/' },
       { text: '答疑汇总', link: '/qa/' },
+      { text: '学习笔记', link: '/reader/' },
       // { text: '精彩活动', link: '/activities/' },
       { text: '点赞支持', link: 'https://github.com/sam9831/mpvue-imooc-ebook-docs' }
     ],

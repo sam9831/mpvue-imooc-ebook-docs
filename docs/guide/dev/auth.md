@@ -48,3 +48,24 @@
 
 ### 用户注册
 获得`openId`后，我们可以通过该`openId`和用户信息在小慕读书中进行注册，课程提供了注册的`api`，[立即查看](https://www.youbaobao.xyz/mpvue-docs/api/#%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C)
+
+## 授权组件
+用户授权登录组件
+
+![component_auth](../images/component_auth.png)
+<table>
+    <tr>
+        <th>组件名称</th>
+        <th>属性</th>
+        <th>参数</th>
+        <th>用途</th>
+        <th>默认值</th>
+    </tr>
+    <tr>
+        <td rowspan="11">Auth</td>
+        <td>method</td>
+        <td>getUserInfo</td>
+        <td>获取用户信息</td>
+        <td>(空)</td>
+    </tr>
+</table>
