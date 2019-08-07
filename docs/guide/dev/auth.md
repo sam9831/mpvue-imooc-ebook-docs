@@ -46,6 +46,13 @@
 查看[官方文档](https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/login/auth.code2Session.html)
 :::
 
+### 用户登录
+通过`mpvue.login`进行用户登录，登录后会获得`code`，该`code`可用于获取`openId`，但要注意`code`只能使用一次，用完即作废
+
+::: tip
+查看[官方文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html)
+:::
+
 ### 用户注册
 获得`openId`后，我们可以通过该`openId`和用户信息在小慕读书中进行注册，课程提供了注册的`api`，[立即查看](https://www.youbaobao.xyz/mpvue-docs/api/#%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C)
 
