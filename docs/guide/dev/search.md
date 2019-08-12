@@ -3,6 +3,10 @@
 ## 搜索视觉稿
 [http://www.youbaobao.xyz/mpvue-design/preview/#artboard1](http://www.youbaobao.xyz/mpvue-design/preview/#artboard1)
 
+## 搜索页面组件结构图
+
+![search](../images/search_component.png)
+
 ## 标签组件
 可交互的标签组件
 ![tag](../images/component_tag.png)
