@@ -493,28 +493,28 @@
 <template>
   <div class="detail-bottom">
     <div class="detail-btn-wrapper">
-      <BaseButton
+      <van-button
         :custom-class="isInShelf ? 'detail-btn-remove' : 'detail-btn-shelf'"
         round
-        :text="isInShelf ? '移出书架' : '加入书架'"
         @click="handleShelf"
-      />
+      >
+        {{isInShelf ? '移出书架' : '加入书架'}}
+      </van-button>
     </div>
     <div class="detail-btn-wrapper">
-      <BaseButton
+      <van-button
         custom-class="detail-btn-read"
         round
-        text="阅读"
         @click="() => readBook()"
-      />
+      >
+        阅读
+      </van-button>
     </div>
   </div>
 </template>
 
 <script>
-  import BaseButton from '../base/BaseButton'
   export default {
-    components: { BaseButton },
     props: {
       isInShelf: Boolean
     },
