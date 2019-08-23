@@ -10,7 +10,7 @@
     - 加入书架API
     - 移出书架API
 - 微信小程序API：
-    - `showModal` 确认对话框
+    - `showModal` 确认对话框（查看[官方文档](https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showModal.html)）
 
 ## 图书详情视觉稿
 [http://www.youbaobao.xyz/mpvue-design/preview/#artboard9](http://www.youbaobao.xyz/mpvue-design/preview/#artboard9)
