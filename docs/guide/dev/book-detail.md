@@ -541,9 +541,38 @@
     align-items: center;
     padding: 0 15px;
     border-top: 1px solid #eee;
-    box-shadow: 0 -2px 0 rgba(250, 250, 250, .9);
+    box-shadow: 0 -2px 4px 0 rgba(0,0,0,.1);
+
     .detail-btn-wrapper {
       flex: 1;
+    }
+  }
+</style>
+
+<style lang="scss">
+  .detail-bottom {
+    .detail-btn-read {
+      width: 100%;
+      border: none;
+      color: #fff;
+      background: #1EA3F5;
+      margin-left: 7.5px;
+    }
+
+    .detail-btn-shelf {
+      width: 100%;
+      color: #1EA3F5;
+      background: #fff;
+      border: 1px solid #1EA3F5;
+      margin-right: 7.5px;
+    }
+
+    .detail-btn-remove {
+      width: 100%;
+      color: #F96128;
+      background: rgba(255, 175, 155, .3);
+      border: 1px solid #FFAF9B;
+      margin-right: 7.5px;
     }
   }
 </style>
