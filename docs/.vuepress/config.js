@@ -22,7 +22,7 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
       { text: 'API', link: '/api/' },
-      { text: '补充阅读', link: '/column/' },
+      // { text: '补充阅读', link: '/column/' },
       // { text: '习题', link: '/exercise/' },
       { text: '答疑汇总', link: '/qa/' },
       { text: '学习笔记', link: '/reader/' },
@@ -80,6 +80,13 @@ module.exports = {
             'dev/category-list',
             'dev/shelf',
             'dev/crash'
+          ]
+        },
+        {
+          title: '支付宝小程序开发指南',
+          collapsable: false,
+          children: [
+            'dev/alipay'
           ]
         },
         {
