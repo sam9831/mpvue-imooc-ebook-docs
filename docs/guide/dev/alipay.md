@@ -1,5 +1,9 @@
 # 支付宝小程序开发指南
 
+## 开发者工具下载
+
+[点击](https://docs.alipay.com/mini/ide/download)下载
+
 ## 获取openId
 
 ### 生成公钥和私钥
@@ -62,7 +66,7 @@ app.get('/openId/get/alipay', (req, res) => {
 
 ## 获取用户信息
 
-需要手动添加权限
+需要手动添加权限，[查看](https://docs.alipay.com/mini/introduce/twn8vq)开发文档地址
 
 ![add](../images/alipay_add_permission.png)
 
