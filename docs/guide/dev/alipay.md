@@ -65,3 +65,60 @@ app.get('/openId/get/alipay', (req, res) => {
 需要手动添加权限
 
 ![add](../images/alipay_add_permission.png)
+
+## 用户授权
+
+```html
+<button
+  class="auth-btn"
+  plain="true"
+  open-type="getAuthorize"
+  scope='userInfo'
+>
+  授权登录
+</button>
+```
+
+支付宝小程序中仍然是通过 `open-type` 和 `scope` 完成授权
+
+## API 改造
+
+API 获取方式需要进行兼容：
+```js
+export function getUserInfo(onSuccess, onFail) {
+  const wx = () => {
+    mpvue.getUserInfo({
+      success(res) {
+        const { userInfo } = res
+        console.log('getUserInfo', userInfo)
+        onSuccess(userInfo)
+      },
+      fail() {
+        onFail ? onFail() : setError('获取用户信息失败')
+      }
+    })
+  }
+  const my = () => {
+    mpvue.getAuthUserInfo({
+      success(res) {
+        console.log(res)
+        res.avatarUrl = res.avatar || res.avatarUrl
+        delete res.avatar
+        console.log('getOpenUserInfo', res)
+        onSuccess(res)
+      },
+      fail() {
+        onFail ? onFail() : setError('获取用户信息失败')
+      }
+    })
+  }
+  adapter({ wx, my })
+}
+``` 
+
+`adapter` 方法源码：
+```js
+function adapter(fn, params) {
+  return fn[mpvuePlatform] && fn[mpvuePlatform](params)
+}
+```
