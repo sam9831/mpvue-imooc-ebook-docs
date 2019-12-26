@@ -79,7 +79,8 @@ module.exports = {
             'dev/read',
             'dev/category-list',
             'dev/shelf',
-            'dev/crash'
+            'dev/crash',
+            'dev/error'
           ]
         },
         {
